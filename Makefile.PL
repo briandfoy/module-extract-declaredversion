@@ -1,6 +1,6 @@
 require 5.010;
 
-package 'Module::Extract::DeclaredMinimumPerl';
+package Module::Extract::DeclaredVersion;
 use strict;
 use warnings;
 

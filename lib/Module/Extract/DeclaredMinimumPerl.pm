@@ -1,7 +1,7 @@
 use utf8;
 use v5.10;
 
-package Module::Extract::DeclaredMinimumPerl;
+package Module::Extract::DeclaredVersion;
 use strict;
 
 use warnings;
@@ -14,15 +14,15 @@ $VERSION = '1.02';
 
 =head1 NAME
 
-Module::Extract::DeclaredMinimumPerl - Extract the version of Perl a module declares
+Module::Extract::DeclaredVersion - Extract the version of Perl a module declares
 
 =head1 SYNOPSIS
 
-	use Module::Extract::DeclaredMinimumPerl;
+	use Module::Extract::DeclaredVersion;
 
-	my $extor = Module::Extract::DeclaredMinimumPerl->new;
+	my $extor = Module::Extract::DeclaredVersion->new;
 
-	my $version = $extor->get_minimum_declared_perl( $file );
+	my $version = $extor->get_declared_version( $file );
 	if( $extor->error ) { ... }
 
 =head1 DESCRIPTION
@@ -69,14 +69,14 @@ sub init {
 	$_[0]->_clear_error;
 	}
 
-=item get_minimum_declared_perl( FILE )
+=item get_declared_version( FILE )
 
 Extracts all of the declared minimum versions for Perl, sorts them,
 and returns the largest a version object.
 
 =cut
 
-sub get_minimum_declared_perl {
+sub get_declared_version {
 	my( $self, $file ) = @_;
 
 	$self->_clear_error;
@@ -162,7 +162,9 @@ L<Module::Extract::Use>
 
 =head1 SOURCE AVAILABILITY
 
-The source code is in Github: git://github.com/briandfoy/Module-Extract-DeclaredMinimumPerl.git
+The source code is in Github
+
+	https://github.com/briandfoy/module-extract-declaredversion
 
 =head1 AUTHOR
 
