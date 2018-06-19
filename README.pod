@@ -2,6 +2,16 @@
 
 =encoding utf8
 
+=for HTML <a href="https://travis-ci.org/briandfoy/module-extract-declaredversion"><img src="https://travis-ci.org/briandfoy/module-extract-declaredversion.svg?branch=master" /></a>
+
+=for HTML <a href='https://ci.appveyor.com/project/briandfoy/module-extract-declaredversion'><img src='https://ci.appveyor.com/api/projects/status/hwsx2nactaag66qo' /></a>
+
+=for HTML <a href='https://coveralls.io/github/briandfoy/module-extract-declaredversion?branch=master'><img src='https://coveralls.io/repos/github/briandfoy/module-extract-declaredversion/badge.svg?branch=master' alt='Coverage Status' /></a>
+
+=for HTML <a href="https://github.com/briandfoy/module-extract-declaredversion/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/Module-Extract-DeclaredVersion.svg" /></a>
+
+=for HTML <a href="http://www.metacpan.org/module/Module::Extract::DeclaredVersion"><img src="https://img.shields.io/cpan/v/Module-Extract-DeclaredVersion.svg" /></A>
+
 =head1 The Module::Extract::DeclaredVersion module
 
 This is the I<README> for the L<Module::Extract::DeclaredVersion> Perl module. You're probably 
