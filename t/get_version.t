@@ -7,6 +7,7 @@ use Test::More;
 use File::Basename;
 use File::Spec::Functions qw(catfile);
 use version;
+use Test::Needs "Module::Extract::DeclaredMinimumPerl";
 
 my $class = "Module::Extract::DeclaredMinimumPerl";
 

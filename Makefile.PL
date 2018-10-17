@@ -61,6 +61,7 @@ my %WriteMakefile = (
 
 	'TEST_REQUIRES' => {
 		'Test::More'   => '0.94',
+		'Test::Needs'  => '0',
 		'Test::Output' => '0',
 		},
 
