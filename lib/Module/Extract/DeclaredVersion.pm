@@ -9,7 +9,7 @@ no warnings;
 
 use subs qw();
 
-our $VERSION = '1.021';
+our $VERSION = '1.022';
 
 =encoding utf8
 
